@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-<meta charset="UTF-8">
 <title>Weather App</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -13,22 +11,16 @@
 
 <h1>Weather App</h1>
 
-<input type="text" id="city" placeholder="Enter city name" onkeyup="searchCity()">
+<input type="text" id="city" placeholder="Enter city name" onkeyup="suggestCity()">
+<button onclick="getWeather()">Search</button>
 
 <div id="suggestions"></div>
 
-<button onclick="getWeather()">Search</button>
-
-<div id="weather"></div>
-
-<h2>7 Day Forecast</h2>
-
-<div id="forecast"></div>
+<div id="result"></div>
 
 </div>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
