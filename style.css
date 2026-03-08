@@ -13,13 +13,14 @@ background:rgba(255,255,255,0.2);
 padding:30px;
 border-radius:15px;
 text-align:center;
-width:300px;
+width:320px;
 }
 
 input{
 padding:10px;
 border:none;
 border-radius:5px;
+width:180px;
 }
 
 button{
@@ -27,7 +28,7 @@ padding:10px;
 border:none;
 border-radius:5px;
 cursor:pointer;
-margin-left:5px;
+margin-top:10px;
 }
 
 #forecast{
@@ -39,4 +40,22 @@ background:rgba(255,255,255,0.2);
 margin:5px;
 padding:10px;
 border-radius:10px;
+}
+
+#suggestions{
+background:white;
+color:black;
+max-height:150px;
+overflow-y:auto;
+border-radius:5px;
+margin-top:5px;
+}
+
+.suggestion{
+padding:6px;
+cursor:pointer;
+}
+
+.suggestion:hover{
+background:#ddd;
 }
