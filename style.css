@@ -10,17 +10,16 @@ color:white;
 
 .container{
 background:rgba(255,255,255,0.2);
-padding:30px;
+padding:25px;
 border-radius:15px;
-text-align:center;
 width:320px;
+text-align:center;
 }
 
 input{
 padding:10px;
 border:none;
 border-radius:5px;
-width:180px;
 }
 
 button{
@@ -28,18 +27,7 @@ padding:10px;
 border:none;
 border-radius:5px;
 cursor:pointer;
-margin-top:10px;
-}
-
-#forecast{
-margin-top:20px;
-}
-
-.day{
-background:rgba(255,255,255,0.2);
-margin:5px;
-padding:10px;
-border-radius:10px;
+margin-left:5px;
 }
 
 #suggestions{
@@ -58,4 +46,11 @@ cursor:pointer;
 
 .suggestion:hover{
 background:#ddd;
+}
+
+.day{
+background:rgba(255,255,255,0.2);
+padding:10px;
+margin-top:8px;
+border-radius:10px;
 }
